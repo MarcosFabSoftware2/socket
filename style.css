@@ -1,0 +1,36 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    
+}
+
+header {
+    width: rem;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #136af8;
+}
+
+.logo {
+    margin-left: 4.3em;
+}
+
+.navbar {
+
+}
+
+.searchicon {
+
+}
