@@ -13,7 +13,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 6%;
 }
 
 ul {
@@ -57,7 +57,7 @@ a {
 .listasIcone {
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 4%;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -68,26 +68,28 @@ a {
     gap: 10px;
 }
 
-.icone1, .icone2, .icone3 {
-    width: 30px;
-    height: 30px;
+.fa{
+   color: #136af8;
 }
 
 .menuFooter1 {
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .menuFooter2 {
     display: flex;
     flex-wrap: wrap;
+    width: 45%;
     justify-content: center;
-    gap: 10px;
+    gap: 8%;
+    margin-bottom: 2%;
 }
 
 li {
-    padding-right: 0;
     list-style: none;
 }
+
+
