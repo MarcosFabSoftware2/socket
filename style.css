@@ -1,33 +1,59 @@
-.body{
-
-    
-
-}
-
-
 
 
 .pai1{
 
-
-
+ 
 
 }
 
 
 .filho1{
 
-background-color: blue;
+background-color: #136af8;
 
-
+display: flex;
 
 }
 
 
+.menino{
+
+    height: 370px;
+    width: 390px;
+    
+
+}
+
+#titulo1{
+color:#ffffff;
+}
+
+
+
+#texto1{
+color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Testimonial{
 
-
-
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: center;
 
 }
 
@@ -35,9 +61,39 @@ background-color: blue;
 
 .imgcara{
 
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 
+    background-color: #136af8;
+    text-align: center;
+
+    
 
 }
+
+
+#texto2{
+        color:#ffffff;
+        height: 10px;
+    }
+
+#texto3{
+        color:#ffffff;
+        height: 40px;
+    }
+
+#texto4{
+        color:#ffffff;
+        padding-bottom: 50px;
+        width: 80%;
+        margin-left: 13%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
 
 
 
