@@ -1,8 +1,16 @@
+.body{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
 
 
-.pai1{
 
- 
+.pai{
+
+    height: 500px;
 
 }
 
@@ -13,6 +21,7 @@ background-color: #136af8;
 
 display: flex;
 
+
 }
 
 
@@ -20,18 +29,24 @@ display: flex;
 
     height: 370px;
     width: 390px;
-    
+
+    border: 100px 100px 100px 100px;
+    border:solid;
+    border-color: #ffffff;
 
 }
 
 #titulo1{
 color:#ffffff;
+
+
 }
 
 
 
 #texto1{
 color:#ffffff;
+
 }
 
 
@@ -57,6 +72,13 @@ color:#ffffff;
 
 }
 
+
+
+.começo{
+
+padding-top: 120px;
+
+}
 
 
 .imgcara{
