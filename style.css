@@ -196,7 +196,7 @@ padding-right: 150px;
     align-items: center;
 
     
-    
+
 }
 
 
@@ -219,9 +219,10 @@ padding-right: 150px;
 
 
 background-image: url(images/boll_bg.png);
-height: 400px;
-width: 400px;
-
+height: 300px;
+width: 300px;
+padding: 50px;
+margin-left: 30px;
 
 }
 
@@ -230,9 +231,11 @@ width: 400px;
 
 .botao2{
 
+
+    margin-left: 85px;
+    text-align: center;
     color: #ffffff;
 
-    
     background-color: black;
     border-radius: 20px ;
     width: 130px;
@@ -245,31 +248,41 @@ width: 400px;
 
 
 .infor1{
+    font-size: 13px;
+    color:#666666;
     border-bottom: solid 2px;
     border-color: rgba(215, 215, 215, 0.587);   
     text-align: left;
+    margin-bottom: 40px;
 }
 
 
 .infor2{
- 
+    font-size: 13px;
+    color:#666666;
     border-bottom: solid 2px;
     border-color: rgba(215, 215, 215, 0.587);
     text-align: left;
+    margin-bottom: 40px;
 }
 
 
+
 .infor3{
-   
+    font-size: 13px;
+    color:#666666;
     border-bottom: solid 2px;
     border-color: rgba(215, 215, 215, 0.587);
     text-align: left;
+    margin-bottom: 40px;
 }
 
 
 .infor4{
-   
+    font-size: 13px;
+    color:#666666;
     border-bottom: solid 2px;
     border-color: rgba(215, 215, 215, 0.587);
     text-align: left;
+    margin-bottom: 40px;
 }
