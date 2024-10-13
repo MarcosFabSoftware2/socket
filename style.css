@@ -1,8 +1,18 @@
 
-
-
 .pai{
     height: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+}
+
+.titulo{
+
+    display: flex;
+
+}
+#cortitulo{
+    color:#136af8;
 }
 
 
@@ -12,7 +22,7 @@ background-color: #136af8;
 display: flex;
 justify-content: center;
 height: 515px;
-
+align-items: center;
 
 
 }
@@ -23,8 +33,7 @@ height: 515px;
     height: 260px;
     width: 330px;
 
-    border: 100px 100px 100px 100px;
-    border:solid;
+    border:solid 11px;
     border-color: #ffffff;
 
 }
@@ -48,90 +57,6 @@ height: 515px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Testimonial{
-
-    padding-left: 350px;
-    padding-right: 350px;
-    text-align: center;
-
-}
-
-
-
-.começo{
-
-padding-top: 120px;
-
-}
-
-
-.imgcara{
-
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-
-    background-color: #136af8;
-    text-align: center;
-
-    
-
-}
-
-
-#texto2{
-        color:#ffffff;
-        height: 10px;
-    }
-
-#texto3{
-        color:#ffffff;
-        height: 40px;
-    }
-
-#texto4{
-        color:#ffffff;
-        padding-bottom: 50px;
-        width: 80%;
-        margin-left: 13%;
-        display: flex;
-        justify-content: center;
-    }
-
-
-
-
-
-
-.tabela{
-
-
-
-
-}
-#leiamais {
-    background-color: black;
-    border-radius: 20px ;
-    width: 130px;
-    height: 33px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #texto_leia {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -145,3 +70,206 @@ padding-top: 120px;
 
 
 
+
+#leiamais {
+    background-color: black;
+    border-radius: 20px ;
+    width: 130px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#colortitulo2{
+color:#136af8;
+
+}
+
+
+
+
+
+
+
+.Testimonial{
+
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+
+  
+}
+
+.começo{
+
+padding-top: 130px;
+
+}
+
+
+
+.imgcara{
+
+    
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    background-color: #136af8;
+    text-align: center;
+
+}
+
+
+#texto2{
+
+        color:#ffffff;
+        height: 2px;
+
+    }
+
+
+#texto3{
+
+        color:#ffffff;
+        height: 40px;
+
+    }
+
+#texto4{
+
+        color:#ffffff;
+        padding-bottom: 10px;
+        width: 80%;
+        margin-left: 13%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+.image2{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.texto5{
+    text-align: center;
+}
+
+
+
+
+.paitabela{
+   
+padding-left: 150px;
+padding-right: 150px;
+    
+}
+
+
+.tabela{
+    
+
+    background-color: #136af8;
+    display: flex;
+    justify-content: center;
+    height: 515px;
+    align-items: center;
+
+    
+    
+}
+
+
+
+.soC{
+    
+
+    text-align: center;
+    font-size: 130px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    height: 400px;
+    width: 400px;
+
+
+}
+
+
+.informacao{
+
+
+background-image: url(images/boll_bg.png);
+height: 400px;
+width: 400px;
+
+
+}
+
+
+
+
+.botao2{
+
+    color: #ffffff;
+
+    
+    background-color: black;
+    border-radius: 20px ;
+    width: 130px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.infor1{
+    border-bottom: solid 2px;
+    border-color: rgba(215, 215, 215, 0.587);   
+    text-align: left;
+}
+
+
+.infor2{
+ 
+    border-bottom: solid 2px;
+    border-color: rgba(215, 215, 215, 0.587);
+    text-align: left;
+}
+
+
+.infor3{
+   
+    border-bottom: solid 2px;
+    border-color: rgba(215, 215, 215, 0.587);
+    text-align: left;
+}
+
+
+.infor4{
+   
+    border-bottom: solid 2px;
+    border-color: rgba(215, 215, 215, 0.587);
+    text-align: left;
+}
