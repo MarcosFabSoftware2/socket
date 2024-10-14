@@ -8,12 +8,242 @@
 
 body {
     font-family: "Poppins", sans-serif;
+}
+
+.textoAzul {
+    color: #136af8;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
     background-color: #136af8;
+}
+
+nav {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+}
+
+#divlogo {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+#logo {
+    width: 115px;
+    height: 37px;
+    margin-left: 22%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: end;
+    width: 73%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 55%;
+}
+
+#searchicon {
+    width: 20px;
+    height: 20px;
+}
+
+#welcome {
+    background-color: #000000;
+    width: 20%;
+    height: 20%;
+}
+
+#titulosContainer {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulos {
+    display: flex;
+}
+
+#textoNosso, #textoProdutos1 {
+    color: #000000;
+    margin-left: 5%;
+}
+
+#textoProdutos1 {
+    color: #136af8;
+    margin-left: 0.9%;
+}
+
+#containerProdutos1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #0b1b30;
+}
+
+#containerProdutos2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #136af8;
+    background-color: #0b1b30;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    width: 28%;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.produto h2 {
+    margin-bottom: 10px;
+}
+
+.produto p {
+    color: #000000;
+    font-size: 18px;
+}
+
+#titulos {
+    display: flex;
+    background-color: white;
+}
+
+#textoProdutos2 {
+    margin-left: 5%;
+    margin-top: 0.5%;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+#preco {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSobre {
+    background-color: #136af8;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+}
+
+#cortitulo {
+    color: #136af8;
+}
+
+.containerLeiaMais{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+
+.menino {
+    height: 260px;
+    width: 330px;
+    border: solid 11px #ffffff;
+}
+
+#titulo1, #texto1, #texto_leia {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+#titulo1 {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+#texto1, #texto_leia {
+    font-weight: 400;
+}
+
+#leiamais {
+    background-color: black;
+    border-radius: 20px;
+    width: 130px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Testimonial {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.começo {
+    padding-top: 130px;
+}
+
+.imgcara {
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #136af8;
+    text-align: center;
+}
+
+#texto2 {
+    padding-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+}
+
+#texto3 {
+    font-size: 20px;
+    color: #ffffff;
+    height: 40px;
+}
+
+#texto4 {
+    color: #ffffff;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: center;
 }
 
 .quadrados1 {
     display: flex;
     justify-content: center;
+    background-color:#136af8;
 }
 
 .quadrados2 {
@@ -43,6 +273,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/boll_bg.png);
+}
+
+.noticiasContainer {
+    display: flex;
+    justify-content: center;
+    width: 83%;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
 }
 
 form {
@@ -69,21 +311,11 @@ form {
     color: white;
 }
 
-.retanguloNoticias {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.noticias {
-    width: 80%;
-}
-
 footer {
     color: white;
     background-color: #0b1b30;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     padding-top: 6%;
 }
 
@@ -118,47 +350,17 @@ a:hover {
 
 .footerEndereco {
     display: flex;
-    width: 100%;
-    justify-content: center;
+    font-size: 0.8em;
 }
 
-.endereco {
-    font-weight: normal;
-    font-size: 1.5em;
-    border-bottom: solid #136af8 2px;
-    padding-bottom: 0.4em;
+:root {
+    --cor-primaria: #136af8;
+    --cor-branco: #ffffff;
 }
 
-.listasIcone {
+.footerEndereco {
     display: flex;
     justify-content: center;
-    margin-top: 4%;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.listaIcone1, .listaIcone2, .listaIcone3 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.fa{
-   color: #136af8;
-   font-size: 1.5rem;
-}
-
-.icone {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border: solid 1px white;
-    border-radius: 10px;
-    margin-right: 15px;
-
 }
 
 .menuFooter1 {
@@ -177,6 +379,37 @@ a:hover {
     margin-bottom: 2%;
 }
 
+.endereco {
+    font-weight: normal;
+    font-size: 1.5em;
+    border-bottom: solid var(--cor-primaria) 2px;
+
+.listasIcone {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+.listaIcone1, .listaIcone2, .listaIcone3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa {
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+  
+.icone {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-branco);
+    border: solid 1px var(--cor-branco);
+    border-radius: 10px;
+    margin-right: 15px;
+
 li {
     list-style: none;
     text-align: center;
@@ -185,8 +418,7 @@ li {
 @media (max-width: 768px) {
     .listasIcone {
         flex-direction: column;
-        padding-left: 3%;
-    }
+        align-items: flex-start;
 
     .menuFooter2 {
         flex-direction: column;
@@ -202,11 +434,23 @@ li {
     .quadradoLogo {
         margin: 0;
         font-size: 3em;
-        width: 60%;
-        height: 100%;
+        width: 90%;
+        height: 60%;
     }
 
     .quadradoForm {
-        width: 60%;
+        width: 90%;
+    }
+
+    .quadrados1 {
+        height: 1050px;
+        display: flex;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .quadrados2 {
+        height: 900px;
+        width: 100%;
     }
 }
