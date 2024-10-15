@@ -106,7 +106,7 @@ ul {
     flex-direction: column;
     align-items: center;
     background-color: #f7f7f7;
-    border: 1px solid #ddd;
+    border: solid 1px #ddd;
     margin: 20px;
     padding: 20px;
     width: 28%;
@@ -137,8 +137,6 @@ ul {
 #textoProdutos2 {
     margin-left: 5%;
     margin-top: 0.5%;
-    font-weight: 400;
-    font-size: 0.7em;
 }
 
 #preco {
@@ -221,7 +219,7 @@ ul {
     padding-bottom: 5px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.56rem;
     color: black;
 }
 
@@ -244,11 +242,12 @@ ul {
     display: flex;
     justify-content: center;
     background-color:#136af8;
+    height: 60vh;
+    padding-bottom: 4.5%;
 }
 
 .quadrados2 {
     width: 62%;
-    height: 51vh;
     display: flex;
     align-items: center;
 }
@@ -276,17 +275,6 @@ ul {
     background-image: url(/images/boll_bg.png);
 }
 
-.noticiasContainer {
-    display: flex;
-    justify-content: center;
-    width: 83%;
-}
-
-.noticias {
-    display: flex;
-    flex-direction: column;
-}
-
 form {
     width: 90%;
     display: flex;
@@ -294,7 +282,7 @@ form {
     align-items: center;
 }
 
-.input {
+.inputForm {
     width: 90%;
     margin: 5%;
     border: none;
@@ -302,7 +290,7 @@ form {
     padding-bottom: 3%;
 }
 
-.button {
+#buttonForm {
     width: 35%;
     height: 40px;
     border-radius: 20px;
@@ -311,12 +299,67 @@ form {
     color: white;
 }
 
+#noticiasContainer1 {
+    display: flex;
+    justify-content: center;
+    background-color: #0b1b30;
+    width: 100%;
+    height: 15vh;
+    z-index: 2;
+}
+
+#noticiasContainer2 {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+    width: 64%;
+    height: 15vh;
+    transform: translateY(-60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1b30;
+}
+
+#noticias1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40%;
+    margin-right: 20px;
+}
+
+#tituloNoticias {
+    font-size: 1.56rem;
+    font-weight: normal;
+}
+
+#noticias2 {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonNoticias {
+    background-color: #136af8;
+    color: white;
+    border: solid 1px #136af8;
+    border-radius: 0px 40px 40px 0px;
+    width: 75px;
+    height: 40px;
+}
+
+#inputNoticias {
+    width: 28vw;
+    height: 40px;
+    border: none;
+    border-radius: 40px 0px 0px 40px;
+    padding: 15px;
+}
+
 footer {
     color: white;
     background-color: #0b1b30;
     bottom: 0;
     width: 100vw;
-    padding-top: 6%;
+    z-index: 1;
 }
 
 ul {
@@ -453,14 +496,37 @@ li {
     }
 
     .quadrados1 {
-        height: 1050px;
+        height: 1250px;
+        padding-bottom: 20%;
         display: flex;
         align-items: center;
         padding-top: 10%;
+        z-index: 1;
     }
 
     .quadrados2 {
         height: 900px;
         width: 100%;
+    }
+
+    #noticias1 {
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    #noticiasContainer2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30vh;
+        transform: translateY(-50%);
+    }
+
+    #noticias2 {
+        margin-top: 6%;
+    }
+
+    #inputNoticias {
+        width: 50%;
     }
 }
