@@ -18,11 +18,11 @@
 
                 <div id="navbar">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">TESTIMONIAL</a></li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">CONTACT US</a></li>
+                        <li class="listaNav"><a href="#">HOME</a></li>
+                        <li class="listaNav"><a href="#">ABOUT</a></li>
+                        <li class="listaNav"><a href="#">TESTIMONIAL</a></li>
+                        <li class="listaNav"><a href="#">SHOP</a></li>
+                        <li class="listaNav"><a href="#">CONTACT US</a></li>
 
                         <a href="#"><img id="searchicon" src="/images/search_icon.png" alt=""></a>
                     </ul>
@@ -30,20 +30,28 @@
             </nav>
         </header>
 
-        <div id="welcome">
-
+        <div id="welcomeContainer1">
+            <div id="welcomeContainer2">
+                <div id="titulosWelcome">
+                    <h1 id="textoPreto">Welcome to</h1>
+                    <h1>Our Shop</h1>
+                </div>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by randomized words which don't look even slightly believable.</p>
+                    <div>
+                        <button id="buttonWelcome">Buy Now</button>
+                        <button id="buttonWelcome">About</button>
+                    </div>
+                </div>
+            <div id="boksingContainer">
+                <img src="images/boksing-gloves.png" id="boksingImagem" alt="">
+            </div>
         </div>
-    </div>
-
     <div class="titulosContainer">
         <div class="titulos">
             <h1>Our</h1>
             <h1 class="textoAzul">Products</h1>
         </div>
-
-        <div>
             <p id="textoParagrafo">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by randomized words which don't look even slightly believable.</p>
-        </div>
     </div>
 
   <section id="containerProdutos1">
@@ -51,8 +59,8 @@
     <div class="produto">
       <img src="/images/basketball.png" class="imagem" alt="Basquete">
       <div id="preco">
-        <h2 id="cifroes">$</h2>
-        <h2>50</h2>
+        <h2>$</h2>
+        <h2><span class="textoValor">50</span></h2>
   
       </div>
       <p>Basketball Ball</p>
@@ -63,8 +71,8 @@
     <div class="produto">
       <img src="/images/t-shirt.png" class="imagem" alt="Camiseta">
       <div id="preco">
-        <h2 id="cifroes">$</h2>
-        <h2>50</h2>
+        <h2>$</h2>
+        <h2><span class="textoValor">50</span></h2>
       </div>
       <p>T-Shirt </p>
     </div>
@@ -73,8 +81,8 @@
     <div class="produto">
       <img src="/images/game.png" class="imagem" alt="Jogo de Boliche">
       <div id="preco">
-        <h2 id="cifroes">$</h2>
-        <h2>50</h2>
+        <h2>$</h2>
+        <h2><span class="textoValor">50</span></h2>
       </div>
       <p>Game</p>
     </div>
@@ -83,8 +91,8 @@
     <div class="produto">
       <img src="/images/basketball.png" class="imagem" alt="Basquete">
       <div id="preco">
-        <h2 id="cifroes">$</h2>
-        <h2>50</h2>
+        <h2>$</h2>
+        <h2><span class="textoValor">50</span></h2>
       </div>
       <p>Basketball Ball</p>
     </div>
@@ -93,8 +101,8 @@
     <div class="produto">
       <img src="/images/t-shirt.png" class="imagem" alt="Camiseta">
       <div id="preco">
-        <h2 id="cifroes">$</h2>
-        <h2>50</h2>
+        <h2>$</h2>
+        <h2><span class="textoValor">50</span></h2>
       </div>
       <p>T-Shirt </p>
     </div>
@@ -103,8 +111,8 @@
     <div class="produto">
       <img src="/images/game.png" class="imagem" alt="Jogo de Boliche">
       <div id="preco">
-        <h2 id="cifroes">$</h2>
-        <h2>50</h2>
+        <h2>$</h2>
+        <h2><span class="textoValor">50</span></h2>
       </div>
       <p>Game</p>
     </div>
@@ -119,11 +127,11 @@
         <p id="textoParagrafo">there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable</p>
     </div>
 
-    <div class="containerSobre"> 
-        <div class="containerLeiaMais">  
-            <div id="pai_titulo1">
-                <h1 id="titulo1">Best sports item shop our </h1>
-                <p id="texto1">there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable</p>
+    <div class="containerSobre1"> 
+        <div class="containerSobre2">  
+            <div>
+                <h1 id="tituloSobre">Best sports item shop our </h1>
+                <p id="paragrafoSobre">there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable</p>
                 
                 <div id="leiamais">
                     <p id="texto_leia">Read More</p> 
@@ -136,7 +144,7 @@
         </div>
     </div>
 
-    <div class="começo">
+    <div class="titulosContainer centralizarTexto">
         <h1>Testimonial</h1>  
         <p>avaliable, but the majority have suffered alteration in some form, by injected randomised words which dont look even slightly believable</p>
     </div>
@@ -163,6 +171,14 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="titulosContainer centralizarTexto">
+        <div class="titulos">
+            <h1>Contact</h1>
+            <h1 class="textoAzul">Us</h1>
+        </div>
+        <p id="textoParagrafo">there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable</p>
     </div>
 
 
