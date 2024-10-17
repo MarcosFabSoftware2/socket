@@ -200,10 +200,6 @@ ul {
     justify-content: center;
 }
 
-#cortitulo {
-    color: #136af8;
-}
-
 #containerSobre2{
     display: flex;
     justify-content: center;
@@ -217,7 +213,7 @@ ul {
     border: solid 11px #ffffff;
 }
 
-#tituloSobre, #paragrafoSobre, #texto_leia {
+#tituloSobre, #paragrafoSobre {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
 }
@@ -625,7 +621,7 @@ li {
         display: none;
     }
 
-      #navResponsiva {
+    #navResponsiva {
         display: block;
     }
 
