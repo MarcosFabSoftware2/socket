@@ -9,25 +9,7 @@
 </head>
 
 <body>
-        <div id="divlogo">
-            <img id="logo" src="/images/logo.png" alt="Logo da Loja Socket.">
-        </div>
-        <section class="top-nav">
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-        </label>
-        <ul class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">TESTIMONIAL</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">CONTACT US</a></li>
-        </ul>
-        </section>
-   
-
-    <div class="container">
+    <div>
         <header>
             <nav>       
                 <div id="divlogo">
@@ -36,17 +18,35 @@
 
                 <div id="navbar">
                     <ul>
-                        <li class="listaNav"><a href="#">HOME</a></li>
-                        <li class="listaNav"><a href="#">ABOUT</a></li>
-                        <li class="listaNav"><a href="#">TESTIMONIAL</a></li>
-                        <li class="listaNav"><a href="#">SHOP</a></li>
-                        <li class="listaNav"><a href="#">CONTACT US</a></li>
-
+                        <li class="listaNav"><a class="linkNav" href="#">HOME</a></li>
+                        <li class="listaNav"><a class="linkNav" href="#">ABOUT</a></li>
+                        <li class="listaNav"><a class="linkNav" href="#">TESTIMONIAL</a></li>
+                        <li class="listaNav"><a class="linkNav" href="#">SHOP</a></li>
+                        <li class="listaNav"><a class="linkNav" href="#">CONTACT US</a></li>
                         <a href="#"><img id="searchicon" src="/images/search_icon.png" alt=""></a>
                     </ul>
                 </div>
             </nav>
         </header>
+
+        <div id="navResponsiva">
+            <div class="divLogo">
+                <img id="logo" id="casa" src="/images/logo.png" alt="Logo da Loja Socket.">
+            </div>
+            <section id="navBar2">
+            <input id="menuAtivar" type="checkbox" />
+            <label class="menuButtonContainer" for="menuAtivar">
+            <div class="menuButton"></div>
+            </label>
+            <ul class="menu">
+                <li><a href="#casa">HOME</a></li>
+                <li><a href="#sobre">ABOUT</a></li>
+                <li><a href="#testemunhas">TESTIMONIAL</a></li>
+                <li><a href="#loja">SHOP</a></li>
+                <li><a href="#contato">CONTACT US</a></li>
+            </ul>
+            </section>
+        </div>
 
         <div id="welcomeContainer1">
             <div id="welcomeContainer2">
@@ -67,7 +67,7 @@
     <div class="titulosContainer">
         <div class="titulos">
             <h1>Our</h1>
-            <h1 class="textoAzul">Products</h1>
+            <h1 class="textoAzul" id="loja">Products</h1>
         </div>
             <p id="textoParagrafo">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by randomized words which don't look even slightly believable.</p>
     </div>
@@ -139,7 +139,7 @@
 
   <div class="titulosContainer">
         <div class="titulos">
-            <h1>About</h1>
+            <h1 id="sobre">About</h1>
             <h1 class="textoAzul">Us</h1>
         </div>
         <p id="textoParagrafo">there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable</p>
@@ -160,23 +160,17 @@
     </div>
 
     <div class="titulosContainer centralizarTexto">
-        <h1>Testimonial</h1>  
+        <h1 id="testemunhas">Testimonial</h1>  
         <p>avaliable, but the majority have suffered alteration in some form, by injected randomised words which dont look even slightly believable</p>
     </div>
 
     <div id="containerTestimonial1">
         <div id="containerTestimonial2">
-        <div id="testimonial">
-
-        <div class="borda1">
-
+            <div id="testimonial">
                 <img src="images/john-image.png" alt="Profile Picture">  
-        
-                
-                <p id="texto2">John Due </p>  
-                <p id="texto3">(ceo)</p>
-
-                <p id="texto4">it is a long estabilished fact that a reader will be distracted by the readable content of a page when looking at its layout. the 
+                <p>JOHN DUE</p>  
+                <p id="textoTestimonial2">(ceo)</p>
+                <p id="textoTestimonial3">it is a long estabilished fact that a reader will be distracted by the readable content of a page when looking at its layout. the 
             point of using Lorem ipsum is that it has a more-or-less normal distribution of letter, aslt is a long estabilished  fact that a reader 
             will be distracted by the readable content of a page when looking at its layout the point of using lorem ipsum is 
             that it has a more-or-less nromal distribution of letter, as</p>  
@@ -186,18 +180,17 @@
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="titulosContainer centralizarTexto">
         <div class="titulos">
-            <h1>Contact</h1>
+            <h1 id="contato">Contact</h1>
             <h1 class="textoAzul">Us</h1>
         </div>
         <p id="textoParagrafo">there are many variations of passages of Lorem ipsum avaliable, but the majority have suffered alteration in same form by injected randomised words wich dont look even slightly believable</p>
     </div>
 
-    <div class="quadrados1">
-        <div class="quadrados2">
+    <div class="quadradosContainer1">
+        <div class="quadradosContainer2">
             <div class="quadradoLogo">
                 <h1>soC</h1>
             </div>
