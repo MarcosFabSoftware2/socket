@@ -1,17 +1,26 @@
-* { 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-a {
+body {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: white;
 }
 
-.container {
+p {
+    font-size: 1rem;
+}
+
+.textoAzul {
+    color: #136af8;
+    margin-left: 12px;
+}
+
+.centralizarTexto {
+    align-items: center;
 }
 
 header {
@@ -20,18 +29,8 @@ header {
     background-color: #136af8;
 }
 
-.divlogo {
-    display: flex;
-    align-items: end;
-    align-items: center;
-    width: 20%;
-    height: 100%;
-}
-
-.logo {
-    width: 115px;
-    height: 37px;
-    margin-left: 22%;
+#navResponsiva {
+    display: none;
 }
 
 nav {
@@ -40,31 +39,237 @@ nav {
     display: flex;
 }
 
-ul {
+#divlogo {
     display: flex;
-    justify-content: end;
-    justify-content: space-between;
     align-items: center;
-    list-style-type: none;
-    width: 55%
-} 
+    width: 20%;
+    height: 100%;
+}
 
+#logo {
+    width: 115px;
+    height: 37px;
+    margin-left: 22%;
+}
 
-.navbar {
+#navbar {
     display: flex;
     justify-content: end;
     width: 73%;
 }
 
-.searchicon {
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+#searchicon {
     width: 20px;
     height: 20px;
 }
 
-/*------------------------------------------------*/
+.listaNav {
+    margin-right: 40px;
+}
 
-.welcome {
+#welcomeContainer1 {
+    display: flex;
+    background-color: #136af8;
+    color: white;
+    height: 50vh;
+}
+
+#welcomeContainer2 {
+    margin-left: 7%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcomeTitulos {
+    font-size: 2rem;
+}
+
+#textoPreto {
+    color: black;
+}
+
+.button {
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0b1b30;
+    color: white;
+}
+
+#boksingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#boksingImagem {
+    width: 70%;
+    max-height: 90%;
+}
+
+:root {
+    --cor-primaria: #136af8;
+    --cor-branco: #ffffff;
+}
+
+@media (max-width: 768px) {
+    #welcomeContainer2 {
+        display: none;
+    }
+
+    #logo {
+        width: 115px;
+        height: 37px;
+        margin-left: 30%;
+    }
+
+    #divlogo {
+        display: flex;
+        align-items: center;
+        width: 22%;
+        height: 100%;
+    }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     background-color: #000000;
-    width: 20%;
-    height: 20%;
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(219, 211, 211, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  @media (max-width: 700px) {
+    .menu-button-container {
+      display: flex;
+    }
+    .menu {
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #menu-toggle:checked ~ .menu li {
+      border: 1px solid #333;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: white;
+      background-color: #222;
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid #444;
+    }
+  }
+
+  header {
+    display: none;
+  }
+
+  #navResponsiva {
+    display: block;
+  }
 }
