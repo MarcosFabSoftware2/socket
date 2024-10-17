@@ -156,9 +156,11 @@ body {
     align-items: center;
     justify-content: flex-end;
     background-color: #000000;
-    color: #FFF;
+    color: #ffffff;
     height: 50px;
     padding: 1em;
+    width: 92%;
+    margin-left: 4%;
   }
   
   .menu {
@@ -265,7 +267,7 @@ body {
     }
   }
 
-  header {
+  .listaNav {
     display: none;
   }
 
